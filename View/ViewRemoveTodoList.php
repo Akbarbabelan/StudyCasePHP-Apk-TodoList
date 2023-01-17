@@ -12,7 +12,7 @@ function viewRemoveTodoList()
     if ($pilihan == "x") {
         echo "Batal menghapus todo" . PHP_EOL;
     } else {
-        $success = removeTodoList($piliha);
+        $success = removeTodoList($pilihan);
 
         if ($success) {
             echo "Sukses menghapus todo nomor $pilihan" . PHP_EOL;
